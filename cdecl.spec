@@ -51,6 +51,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(-,root,root)
 %{_bindir}/cdecl
 %{_bindir}/c++decl
-%{_mandir}/man1/cdecl.1.bz2
-%{_mandir}/man1/c++decl.1.bz2
+%{_mandir}/man1/cdecl.*
+%{_mandir}/man1/c++decl.*
 
