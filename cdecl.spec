@@ -3,7 +3,7 @@
 %define release %mkrel 23
 
 
-Summary: Programs for encoding and decoding C and C++ function declarations.
+Summary: Programs for encoding and decoding C and C++ function declarations
 Name: %name
 Version: %version
 Release: %release
