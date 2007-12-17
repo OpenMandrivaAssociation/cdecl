@@ -16,7 +16,6 @@ BuildRequires: readline-devel
 BuildRequires: libtermcap-devel
 BuildRequires: byacc
 BuildRequires: flex
-BuildRoot: %{_tmppath}/%{name}-root
 
 %description
 The cdecl package includes the cdecl and c++decl utilities, which are
