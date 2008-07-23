@@ -1,6 +1,6 @@
 %define name cdecl
 %define version 2.5
-%define release %mkrel 23
+%define release %mkrel 25
 
 
 Summary: Programs for encoding and decoding C and C++ function declarations
