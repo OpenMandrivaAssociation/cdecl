@@ -11,7 +11,7 @@ License: Distributable
 Group: Development/C
 Source: %{name}-%{version}.tar.bz2
 Url: ftp://sunsite.unc.edu/pub/Linux/devel/lang/c/
-Patch: cdecl-2.5.misc_conflicts.patch
+Patch1: cdecl-2.5-fix-conflicts.patch
 BuildRequires: readline-devel
 BuildRequires: libtermcap-devel
 BuildRequires: byacc
@@ -27,10 +27,8 @@ You should install the cdecl package if you intend to do C and/or C++
 programming.
 
 %prep
-
 %setup -q
-
-%patch -p1
+%patch1 -p0
 
 %build
 
