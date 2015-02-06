@@ -1,7 +1,7 @@
 Summary:	Programs for encoding and decoding C and C++ function declarations
 Name:		cdecl
 Version:	2.5
-Release:	30
+Release:	31
 License:	Distributable
 Group:		Development/C
 Source0:	%{name}-%{version}.tar.bz2
