@@ -7,6 +7,7 @@ Group:		Development/C
 Source0:	%{name}-%{version}.tar.bz2
 Url:		ftp://sunsite.unc.edu/pub/Linux/devel/lang/c/
 Patch1:		cdecl-2.5-fix-conflicts.patch
+BuildRequires:	make
 BuildRequires:	byacc
 BuildRequires:	flex
 BuildRequires:	readline-devel
